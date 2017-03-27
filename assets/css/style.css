@@ -1,0 +1,169 @@
+/****************
+* Couleur : #00648f;
+* Couleur : #023448;
+* Couleur : ;
+* Couleur : ;
+****************/
+
+/*#####################
+###### Header #########
+#####################*/
+body
+{
+	font-family: open sans;
+	
+	position: relative; /* on positionne le conteneur */
+  margin-left: auto;
+  margin-right: auto;
+  width: 1150px;
+  background-color: #f0f0f0;
+}
+.classe
+{
+	background-color: #2dc589;
+}
+.classe2
+{
+	background-color: #839bcd;
+}
+
+.menu
+{
+	height: 41px;
+	background-color: #2bbe87;
+	margin-bottom: 3px;
+}
+
+.sous-menu
+{
+	color: black;
+}
+
+nav
+{
+	/*margin-left: 20%;
+	margin-right: 15%;*/
+}
+
+nav ul li a
+{
+	color:white;
+}
+
+.header
+{
+	height: auto;
+	background-color: #057ef0;
+	border-bottom: 1px solid white;
+}
+
+
+
+/*###################
+#### Actualités #####
+###################*/
+
+.actu
+{
+	border-radius: 10px;
+}
+
+footer
+{
+	padding: 20px;
+	background-color: #282828;
+	height: 26%;
+}
+
+.footer-col h3, .footer-col p, .footer-col a
+{
+	color: white;
+}
+.menu2
+{
+	padding: 10px;
+}
+
+/* ########################################## */
+.btn-breadcrumb .btn:not(:last-child):after {
+  content: " ";
+  display: block;
+  width: 0;
+  height: 0;
+  border-top: 17px solid transparent;
+  border-bottom: 17px solid transparent;
+  border-left: 10px solid white;
+  position: absolute;
+  top: 50%;
+  margin-top: -17px;
+  left: 100%;
+  z-index: 3;
+}
+.btn-breadcrumb .btn:not(:last-child):before {
+  content: " ";
+  display: block;
+  width: 0;
+  height: 0;
+  border-top: 17px solid transparent;
+  border-bottom: 17px solid transparent;
+  border-left: 10px solid rgb(173, 173, 173);
+  position: absolute;
+  top: 50%;
+  margin-top: -17px;
+  margin-left: 1px;
+  left: 100%;
+  z-index: 3;
+}
+
+/** The Spacing **/
+.btn-breadcrumb .btn {
+  padding:6px 12px 6px 24px;
+}
+.btn-breadcrumb .btn:first-child {
+  padding:6px 6px 6px 10px;
+}
+.btn-breadcrumb .btn:last-child {
+  padding:6px 18px 6px 24px;
+}
+
+/** Primary button **/
+.btn-breadcrumb .btn.btn-primary:not(:last-child):after {
+  border-left: 10px solid #428bca;
+}
+.btn-breadcrumb .btn.btn-primary:not(:last-child):before {
+  border-left: 10px solid #357ebd;
+}
+.btn-breadcrumb .btn.btn-primary:hover:not(:last-child):after {
+  border-left: 10px solid #3276b1;
+}
+.btn-breadcrumb .btn.btn-primary:hover:not(:last-child):before {
+  border-left: 10px solid #285e8e;
+}
+
+/** Info button **/
+.btn-breadcrumb .btn.btn-info:not(:last-child):after {
+  border-left: 10px solid #5bc0de;
+}
+.btn-breadcrumb .btn.btn-info:not(:last-child):before {
+  border-left: 10px solid #f0f0f0;
+}
+.btn-breadcrumb .btn.btn-info:hover:not(:last-child):after {
+  border-left: 10px solid #39b3d7;
+}
+.btn-breadcrumb .btn.btn-info:hover:not(:last-child):before {
+  border-left: 10px solid #269abc;
+}
+
+/** Success button **/
+.btn-breadcrumb .btn.btn-success:not(:last-child):after {
+  border-left: 10px solid #77d748;
+}
+.btn-breadcrumb .btn.btn-success:not(:last-child):before {
+  border-left: 10px solid #f0f0f0;
+}
+.btn-breadcrumb .btn.btn-success:hover:not(:last-child):after {
+  border-left: 10px solid #5cb85c;
+}
+.btn-breadcrumb .btn.btn-success:hover:not(:last-child):before {
+  border-left: 10px solid #539948;
+}
